@@ -34,7 +34,7 @@ A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
 ### Main HTML Pages
 
-* [Home Page](multimedia-website/index.html)
+* [Home Page](src/index.html)
 * [Streaming Platforms](multimedia-website/streaming.html)
 * [Social Networks](multimedia-website/redes-sociais.html)
 
