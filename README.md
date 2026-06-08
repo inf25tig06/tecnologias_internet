@@ -37,23 +37,7 @@ A fonte do website esta localizada no ficheiro `multimedia-website/`.
 * [Home Page](multimedia-website/index.html)
 * [Streaming Platforms](multimedia-website/streaming.html)
 * [Social Networks](multimedia-website/redes-sociais.html)
-* [Contact](multimedia-website/contacto.html)
 
-### CSS
-
-* [CSS Folder](multimedia-website/css/)
-
-### JavaScript
-
-* [JavaScript Folder](multimedia-website/js/)
-
-### XML
-
-* [XML Folder](multimedia-website/xml/)
-
-### Media
-
-* [Media Folder](multimedia-website/media/)
 
 ### Images
 
