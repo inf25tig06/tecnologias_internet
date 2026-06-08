@@ -1,4 +1,4 @@
-# tecnologias_internet
+# Tecnologias_internet
 # Streaming e Redes Sociais
 
 Repositório para guardar o projeto desenvolvido para a disciplina de Tecnologias Internet, do primeiro ano. 
