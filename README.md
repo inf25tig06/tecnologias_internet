@@ -140,7 +140,7 @@ O relatório foi escrito usando o Markdown.
 
 ### Product
 
-* [Chapter 3 - Product](relatorio/report.md)
+* [Chapter 3 - Product](nova-pasta/c3.md)
 
 ### Presentation
 
