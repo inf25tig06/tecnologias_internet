@@ -5,8 +5,8 @@ Repositório para guardar o projeto desenvolvido para a disciplina de Tecnologia
 
 Desenvolvido pelo grupo inf25tig06:
 
-* [@abreuuuuu17](https://github.com/)
-* [@LuisODC-2](https://github.com/)
+* [@abreuuuuu17](https://github.com/abreuuuuu17/)
+* [@LuisODC-2](https://github.com/LuisODC-2/)
 * [@tomasfonseca11](https://github.com/tomasfonseca11/)
 
 ---
