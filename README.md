@@ -1,37 +1,36 @@
 # tecnologias_internet
 # Streaming e Redes Sociais
 
-Repository to host the project developed for Tecnologias Internet, a first year subject.
-Developed by Group infYYtigXX:
+Repositório para guardar o projeto desenvolvido para a disciplina de Tecnologias Internet, do primeiro ano. 
+
+Desenvolvido pelo grupo inf25tig06:
 
 * [@abreuuuuu17](https://github.com/)
 * [@LuisODC-2](https://github.com/)
-* [@tomasfonseca](https://github.com/)
+* [@tomasfonseca](https://github.com/) !!!!!!!
 
 ---
 
-# Short Theme Description
+# Pequena Descrição do Tema
 
-This project was developed within the multimedia theme area and focuses on streaming platforms and social networks.
+Este projeto foi desenvolvido na área temática multimédia e incide sobre as plataformas de streaming e redes sociais.
 
-The website was created using:
+O site foi criado utilizando:
 
 * HTML5
 * CSS3
 * JavaScript
 * XML + XSD
 
-The main objective is to present multimedia-related content through a modern, responsive and interactive static website.
+O principal objetivo é apresentar conteudo relacionado com multimedia atraves de um website estatico, interativo e responsivo.
 
 ---
 
-# Repository Organization
+# Organizacao do Repositorio
 
-Please help readers navigate through the repository structure.
+## Código-fonte do site
 
-## Website Source Code
-
-The website source code is located in the `multimedia-website/` folder.
+A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
 ### Main HTML Pages
 
@@ -62,7 +61,7 @@ The website source code is located in the `multimedia-website/` folder.
 
 ---
 
-# Gallery
+# Galeria
 
 | Home Page                                 | Streaming Page                             |
 | ----------------------------------------- | ------------------------------------------ |
@@ -74,9 +73,9 @@ The website source code is located in the `multimedia-website/` folder.
 
 ---
 
-# Technologies
+# Tecnologias
 
-The following technologies were used during the development of this assignment:
+As seguintes categorias foram utilizadas durante o desenvolvimento deste trabalho:
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -86,9 +85,9 @@ The following technologies were used during the development of this assignment:
 
 ---
 
-# Frameworks and Libraries
+# Estruturas e bibliotecas
 
-Additional tools and libraries used:
+Ferramentas e bibliotecas utilizadas adicionalmente:
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Markdown PDF Extension](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
@@ -98,11 +97,11 @@ Additional tools and libraries used:
 
 ---
 
-# Features
+# Funcionalidades
 
-The website includes:
+O website inclui:
 
-* Responsive layout;
+* layout responsivo;
 * Semantic HTML5 structure;
 * Tables;
 * Ordered and unordered lists;
@@ -118,17 +117,16 @@ The website includes:
 
 ---
 
-# Website Deployment
+# Implantação do site: 
+O projeto está disponível online através do Netlify:
 
-The project is available online through Netlify:
-
-https://infYYtigXX.netlify.app/
+https://inf25tig06.netlify.app/
 
 ---
 
 # Report
 
-The report is written using Markdown.
+O relatório foi escrito usando o Markdown.
 
 ## Chapters
 
@@ -150,78 +148,78 @@ The report is written using Markdown.
 
 ---
 
-# Installation and Configuration
+# Instalacao e Configuracao
 
-## Local Installation
+## Instalacao Local
 
-1. Clone the repository:
+1. Duplica o repositorio
 
 ```bash
-git clone https://github.com/infYYtigXX/multimedia-website.git
+git clone https://github.com/inf25tig06/multimedia-website.git
 ```
 
-2. Open the project folder.
+2. Abre o ficheiro do projeto.
 
-3. Run the `index.html` file in a browser.
-
----
-
-## Netlify Deployment
-
-1. Create a Netlify account;
-2. Connect GitHub repository;
-3. Import existing project;
-4. Select repository;
-5. Deploy website.
+3. Corre o ficheiro `index.html` no browser.
 
 ---
 
-# Navigation Help
+## Deploy no Netlify
 
-The website uses:
-
-* top navigation menu;
-* responsive design;
-* visual hover effects;
-* organized page structure;
-* consistent colors and typography.
+1. Criar uma conta no Netlify;
+2. Conectar o repositório do GitHub;
+3. Importar o projeto existente;
+4. Selecionar o repositório;
+5. Fazer o deploy do website.
 
 ---
 
-# Form Validation
+# Ajuda de Navegação
 
-The forms include:
+O website utiliza:
 
-* required fields;
-* email validation;
-* HTML5 validation;
-* JavaScript interaction.
-
----
-
-# HTML and CSS Validation
-
-Validation tools used:
-
-* W3C HTML Validator;
-* W3C CSS Validator.
-
-The website was tested and validated according to W3C standards.
+* menu de navegação superior;
+* design responsivo;
+* efeitos visuais de hover;
+* estrutura de páginas organizada;
+* cores e tipografia consistentes.
 
 ---
 
-# XML Integration
+# Validação de Formulários
 
-The project includes:
+Os formulários incluem:
 
-* XML document;
-* XSD schema;
-* JavaScript integration;
-* dynamic XML content loading into HTML tables.
+* campos obrigatórios;
+* validação de email;
+* validação HTML5;
+* interação com JavaScript.
 
 ---
 
-# Team
+# Validação HTML e CSS
+
+Ferramentas de validação utilizadas:
+
+* Validador HTML da W3C;
+* Validador CSS da W3C.
+
+O website foi testado e validado de acordo com os padrões da W3C.
+
+---
+
+# Integração XML
+
+O projeto inclui:
+
+* documento XML;
+* esquema XSD;
+* integração com JavaScript;
+* carregamento dinâmico de conteúdo XML em tabelas HTML.
+
+---
+
+# Equipa
 
 * Gonçalo Abreu
 * Luís Fonseca
@@ -229,6 +227,6 @@ The project includes:
 
 ---
 
-# Final Notes
+# Notas Finais
 
-This project was developed for educational purposes and demonstrates the use of HTML5, CSS3, JavaScript and XML technologies in the creation of a multimedia static website.
+Este projeto foi desenvolvido para fins educativos e demonstra a utilização das tecnologias HTML5, CSS3, JavaScript e XML na criação de um website multimédia estático.
