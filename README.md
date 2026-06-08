@@ -47,13 +47,10 @@ A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
 # Galeria
 
-| Home Page                                 | Streaming Page                             |
-| ----------------------------------------- | ------------------------------------------ |
-| ![](multimedia-website/images/banner.jpg) | ![](multimedia-website/images/netflix.png) |
+| Home Page                                 | Streaming Page                             | Social Networks                           |
+| ----------------------------------------- | ------------------------------------------ | ----------------------------------------- |
+| ![](multimedia-website/images/banner.jpg) | ![](multimedia-website/images/netflix.png) | ![](multimedia-website/images/tiktok.png) |
 
-| Social Networks                           | Contact                                    |
-| ----------------------------------------- | ------------------------------------------ |
-| ![](multimedia-website/images/tiktok.png) | ![](multimedia-website/images/spotify.png) |
 
 ---
 
