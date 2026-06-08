@@ -102,18 +102,18 @@ Ferramentas e bibliotecas utilizadas adicionalmente:
 O website inclui:
 
 * layout responsivo;
-* Semantic HTML5 structure;
+* Estrutura semântica HTML5;
 * Tables;
-* Ordered and unordered lists;
-* Nested lists;
-* Forms;
-* Internal and external hyperlinks;
-* Images and multimedia;
-* Video and audio;
-* CSS animations;
+* Listas ordenadas e não ordenadas;
+* Listas aninhadas;
+* Formas;
+* Hiperlinks internos e externos;
+* Imagens e multimídia;
+* Vídeo e áudio;
+* Animações CSS;
 * Flexbox;
-* XML integration with JavaScript;
-* Dynamic content manipulation.
+* Integração XML com JavaScript;
+* Manipulação dinâmica de conteúdo.
 
 ---
 
@@ -148,9 +148,9 @@ O relatório foi escrito usando o Markdown.
 
 ---
 
-# Instalacao e Configuracao
+# Instalação e Configuração
 
-## Instalacao Local
+## Instalação Local
 
 1. Duplica o repositorio
 
