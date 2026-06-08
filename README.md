@@ -57,7 +57,7 @@ A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
 ### Images
 
-* [Images Folder](multimedia-website/images/)
+* [Images Folder](nova-pasta/imagens)
 
 ---
 
