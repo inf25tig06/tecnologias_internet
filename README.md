@@ -49,7 +49,7 @@ A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
 | Home Page                                 | Streaming Page                             | Social Networks                           |
 | ----------------------------------------- | ------------------------------------------ | ----------------------------------------- |
-| ![](multimedia-website/images/banner.jpg) | ![](multimedia-website/images/netflix.png) | ![](multimedia-website/images/tiktok.png) |
+| ![](multimedia-website/images/banner.jpg) | ![](https://mobile.twitch.tv/) | ![](multimedia-website/images/tiktok.png) |
 
 
 ---
