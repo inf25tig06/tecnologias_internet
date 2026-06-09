@@ -56,7 +56,7 @@ Estão localizados na [nova-pasta](nova-pasta/)
 # Galeria
 
 | Página Inicial                            
-|  (<img width="200" height="300" alt="st e rs" src="https://github.com/user-attachments/assets/6c7b9a8d-8b6f-4529-9cf3-0c8d56745a51" />)
+|  (<img width="400" height="400" alt="st e rs" src="https://github.com/user-attachments/assets/6c7b9a8d-8b6f-4529-9cf3-0c8d56745a51" />)
 
 
 Página de Streaming                        | Redes Sociais                             |
