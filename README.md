@@ -57,7 +57,7 @@ Estão localizados na [nova-pasta](nova-pasta/)
 
 | Página Inicial                                              | Página de Streaming                                                  | Redes Sociais                   |
 | ------------------------------------                        | --------------------------------                                     | ------------------------------- |
-| [Página Inicial](nova-pasta/imagens/pagina-inicial.png.jpg) | [Página de Streaming](nova-pasta/imagens/plataforma-streaming.webp)  | [RedesnSociais](nova-pasta/imagens/redes-sociais.webp)                                |
+| [Página Inicial](nova-pasta/imagens/pagina-inicial.png.jpg) | [Página de Streaming](nova-pasta/imagens/plataforma-streaming.webp)  | [Redes Sociais](nova-pasta/imagens/redes-sociais.webp)                                |
 
 
 
