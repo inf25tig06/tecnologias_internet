@@ -105,25 +105,21 @@ https://inf25tig06.netlify.app/
 
 ---
 
-# Report
+## Capítulos
 
-O relatório foi escrito usando o Markdown.
-
-## Chapters
-
-### Project Presentation
+### Apresentação do projeto
 
 * [Chapter 1 - Project Presentation](nova-pasta/c1.md)
 
-### User Interface
+### Interface do Usuário
 
 * [Chapter 2 - User Interface and Sitemap](nova-pasta/c2.md)
 
-### Product
+### Produto
 
 * [Chapter 3 - Product](nova-pasta/c3.md)
 
-### Presentation
+### Apresentação
 
 * [Chapter 4 - Presentation](nova-pasta/c4.md)
 
