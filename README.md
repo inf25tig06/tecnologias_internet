@@ -30,7 +30,7 @@ O principal objetivo é apresentar conteudo relacionado com multimedia atraves d
 
 ## Código-fonte do site
 
-A fonte do website esta localizada no ficheiro `multimedia-website/`.
+A fonte do website esta localizada na [pasta src](src/)
 
 ### Páginas HTML
 
