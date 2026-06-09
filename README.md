@@ -55,9 +55,9 @@ Estão localizados na [nova-pasta](nova-pasta/)
 
 # Galeria
 
-| Página Inicial                                                   | Página de Streaming              | Redes Sociais                   |
-| ------------------------------------                             | -------------------------------- | ------------------------------- |
-| [Página Inicial](nova-pasta/imagens/pagina-inicial.png.jpg)      |                                  |                                 |
+| Página Inicial                                              | Página de Streaming                                           | Redes Sociais                   |
+| ------------------------------------                        | --------------------------------                              | ------------------------------- |
+| [Página Inicial](nova-pasta/imagens/pagina-inicial.png.jpg) | [Página de Streaming](nova-pasta/imagens/redes-sociais.webp)  | [RedesnSociais](nova-pasta/imagens/redes-sociais.webp)                                |
 
 
 
