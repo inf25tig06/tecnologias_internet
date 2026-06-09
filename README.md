@@ -57,7 +57,8 @@ Estão localizados na [nova-pasta](nova-pasta/)
 
 | Página Inicial                            | Página de Streaming                        | Redes Sociais                             |
 | ----------------------------------------- | ------------------------------------------ | ----------------------------------------- |
-| ![](multimedia-website/images/banner.jpg) | ![](https://mobile.twitch.tv/)             | ![](multimedia-website/images/tiktok.png) |
+| ![](<img width="1500" height="1000" alt="st e rs" src="https://github.com/user-attachments/assets/6c7b9a8d-8b6f-4529-9cf3-0c8d56745a51" />
+) | ![](https://mobile.twitch.tv/)             | ![](multimedia-website/images/tiktok.png) |
 
 
 ---
