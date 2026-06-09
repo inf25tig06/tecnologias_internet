@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataformas de Streaming</title>
+</head>
+<body>
+
+    <header>
+        <h1>Plataformas de Streaming</h1>
+        <p>As plataformas de streaming revolucionaram a forma como consumimos conteúdos digitais.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>O que é o Streaming?</h2>
+            <p>
+                Streaming é uma tecnologia que permite reproduzir conteúdos de áudio e vídeo pela internet
+                sem necessidade de descarregar os ficheiros para o dispositivo.
+            </p>
+        </section>
+
+        <section>
+            <h2>Principais Plataformas</h2>
+
+            <article>
+                <h3>:contentReference[oaicite:0]{index=0}</h3>
+                <p>
+                    Uma das maiores plataformas de streaming de filmes, séries e documentários do mundo.
+                </p>
+            </article>
+
+            <article>
+                <h3>:contentReference[oaicite:1]{index=1}</h3>
+                <p>
+                    Permite assistir e partilhar vídeos de diferentes categorias, sendo uma das plataformas
+                    mais utilizadas globalmente.
+                </p>
+            </article>
+
+            <article>
+                <h3>:contentReference[oaicite:2]{index=2}</h3>
+                <p>
+                    Especializada em transmissões ao vivo, principalmente de videojogos, eventos e conteúdos criados por utilizadores.
+                </p>
+            </article>
+
+            <article>
+                <h3>:contentReference[oaicite:3]{index=3}</h3>
+                <p>
+                    Plataforma focada em música, podcasts e conteúdos áudio disponíveis em streaming.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Vantagens do Streaming</h2>
+            <ul>
+                <li>Acesso imediato aos conteúdos.</li>
+                <li>Grande variedade de opções.</li>
+                <li>Disponibilidade em vários dispositivos.</li>
+                <li>Atualização constante de conteúdos.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Trabalho de Multimédia</p>
+    </footer>
+
+</body>
+</html>
