@@ -32,22 +32,22 @@ O principal objetivo é apresentar conteudo relacionado com multimedia atraves d
 
 A fonte do website esta localizada no ficheiro `multimedia-website/`.
 
-### Main HTML Pages
+### Páginas HTML
 
-* [Home Page](src/index.html)
-* [Streaming Platforms](multimedia-website/streaming.html)
-* [Social Networks](multimedia-website/redes-sociais.html)
+* [Página Inicial](src/index.html)
+* [Plataformas de Streaming](multimedia-website/streaming.html)
+* [Redes Sociais](multimedia-website/redes-sociais.html)
 
 
-### Images
+### Imagens
 
-* [Images Folder](nova-pasta/imagens)
+* [Pasta Imagens](nova-pasta/imagens)
 
 ---
 
 # Galeria
 
-| Home Page                                 | Streaming Page                             | Social Networks                           |
+| Página Inicial                            | Página de Streaming                        | Redes Sociais                             |
 | ----------------------------------------- | ------------------------------------------ | ----------------------------------------- |
 | ![](multimedia-website/images/banner.jpg) | ![](https://mobile.twitch.tv/)             | ![](multimedia-website/images/tiktok.png) |
 
