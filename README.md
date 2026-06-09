@@ -43,8 +43,8 @@ Estão localizados na [nova-pasta](nova-pasta/)
 ### Páginas HTML
 
 * [Página Inicial](src/index.html)
-* [Plataformas de Streaming](multimedia-website/streaming.html)
-* [Redes Sociais](multimedia-website/redes-sociais.html)
+* [Plataformas de Streaming](src/plataformas-streaming.html)
+* [Redes Sociais](src/redes-sociais.html)
 
 
 ### Imagens
