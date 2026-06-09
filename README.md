@@ -57,7 +57,7 @@ Estão localizados na [nova-pasta](nova-pasta/)
 
 | Página Inicial                                     | Página de Streaming              | Redes Sociais                   |
 | ------------------------------------               | -------------------------------- | ------------------------------- |
-| <img src="imagens/src/st e rs.jpg" alt="st e rs" weight= "300">  |                                  |                                 |
+| [](nova-pasta/imagens/pagina-inicial.png.jpg)      |                                  |                                 |
 
 
 
