@@ -55,13 +55,13 @@ Estão localizados na [nova-pasta](nova-pasta/)
 
 # Galeria
 
-| Página Inicial                            
-|  (<img width="350" height="400" alt="st e rs" src="https://github.com/user-attachments/assets/6c7b9a8d-8b6f-4529-9cf3-0c8d56745a51" />)
+| Página Inicial             | (<img width="350" height="400" alt="st e rs" src="https://github.com/user-attachments/assets/6c7b9a8d-8b6f-4529-9cf3-0c8d56745a51" />)|
 
 
-Página de Streaming                        | Redes Sociais                             |
-| ----------------------------------------- | ------------------------------------------ | ----------------------------------------- |
-| 
+| Página de Streaming        | (      
+
+
+| Redes Sociais                            
 
 ---
 
