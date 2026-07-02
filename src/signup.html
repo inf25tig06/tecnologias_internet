@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registo - Streaming e Redes Sociais</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">STREAMING E REDES<br>SOCIAIS</a>
+    </div>
+
+    <a href="index.html" class="btn">← Voltar</a>
+  </header>
+
+  <main class="signup-wrapper">
+    <section class="signup-box" aria-labelledby="tituloRegisto">
+      <h1 id="tituloRegisto">Criar Conta</h1>
+      <p class="subtitulo">Junta-te ao mundo do streaming!</p>
+
+      <form id="formRegisto" action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Escreve o teu nome" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Mínimo 6 caracteres" minlength="6" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password2">Confirmar Password</label>
+          <input type="password" id="password2" name="password2" placeholder="Repete a password" minlength="6" required>
+        </div>
+
+        <button type="submit" class="btn-criar">CRIAR CONTA →</button>
+      </form>
+
+      <div class="msg-sucesso is-hidden" id="msgSucesso" role="status" aria-live="polite">
+        Conta criada com sucesso! Bem-vindo ao Streaming e Redes Sociais.
+      </div>
+
+      <p class="login-link">Já tens conta? <a href="index.html">Volta à página principal</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 - Streaming e Redes Sociais
+  </footer>
+
+  <script>
+    const form = document.getElementById('formRegisto');
+    const msg = document.getElementById('msgSucesso');
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+
+      const pw1 = document.getElementById('password').value;
+      const pw2 = document.getElementById('password2').value;
+
+      if(pw1 !== pw2){
+        alert('As passwords não coincidem!');
+        return;
+      }
+
+      form.classList.add('is-hidden');
+      msg.classList.remove('is-hidden');
+    });
+  </script>
+
+</body>
+</html>
