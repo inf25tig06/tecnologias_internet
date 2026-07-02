@@ -189,7 +189,6 @@ O projeto inclui:
 
 * documento XML;
 * esquema XSD;
-* integração com JavaScript;
 * carregamento dinâmico de conteúdo XML em tabelas HTML.
 
 ---
