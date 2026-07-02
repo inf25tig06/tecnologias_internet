@@ -76,8 +76,6 @@ As seguintes categorias foram utilizadas durante o desenvolvimento deste trabalh
 Ferramentas e bibliotecas utilizadas adicionalmente:
 
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [Markdown PDF Extension](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-* [Font Awesome](https://fontawesome.com/)
 * [Netlify](https://www.netlify.com/)
 * [GitHub](https://github.com/)
 
@@ -90,15 +88,11 @@ O website inclui:
 * layout responsivo;
 * Estrutura semântica HTML5;
 * Tables;
-* Listas ordenadas e não ordenadas;
-* Listas aninhadas;
+* Listas;
 * Formas;
-* Hiperlinks internos e externos;
+* Hiperlinks internos;
 * Imagens e multimídia;
-* Vídeo e áudio;
 * Animações CSS;
-* Flexbox;
-* Integração XML com JavaScript;
 * Manipulação dinâmica de conteúdo.
 
 ---
@@ -183,8 +177,7 @@ Os formulários incluem:
 
 Ferramentas de validação utilizadas:
 
-* Validador HTML da W3C;
-* Validador CSS da W3C.
+* Validador HTML da W3C
 
 O website foi testado e validado de acordo com os padrões da W3C.
 
