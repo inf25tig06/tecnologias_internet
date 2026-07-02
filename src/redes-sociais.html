@@ -1,176 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociais - Streaming e Redes Sociais</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: red;
-            color: #333;
-        }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        header {
-            background-color: darkred;
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        section {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-
-        article {
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        article img {
-            width: 150px;
-            height: 150px;
-            object-fit: contain;
-            margin-top: 10px;
-        }
-
-        h1, h2, h3 {
-            color: darkred;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: darkred;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-
-        hr {
-            border: 1px solid white;
-        }
-    </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/redes-sociais.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Redes Sociais</h1>
+  <header>
+    <div class="logo">
+      STREAMING E REDES<br>
+      SOCIAIS
+    </div>
 
-        <p>
-            As redes sociais desempenham um papel importante na comunicação
-            e partilha de informação na sociedade atual.
-        </p>
-    </header>
+    <nav aria-label="Navegação principal" class="top-nav">
+      <a class="btn" href="index.html">Início</a>
+      <a class="btn" href="streaming.html">Streaming</a>
+      <a class="btn" href="redes-sociais.html" aria-current="page">Redes Sociais</a>
+      <a class="btn" href="signup.html">Sign Up →</a>
+    </nav>
+  </header>
 
-    <main>
+  <main>
 
-        <section>
+    <section class="hero hero--redes" id="redes-intro">
+      <h1>REDES SOCIAIS</h1>
+      <p>
+        As redes sociais permitem criar comunidades, partilhar conteúdo e interagir em tempo real.
+        São essenciais para <strong>criação de conteúdo</strong> e <em>marketing</em>.
+      </p>
+      <a class="btn" href="#tabela-redes">Ver estatísticas</a>
+    </section>
 
-            <h2>O que são Redes Sociais?</h2>
+    <section class="sobre">
+      <h2>Tipos de conteúdo</h2>
 
-            <p>
-                As redes sociais são plataformas digitais que permitem aos utilizadores
-                criar conteúdos, comunicar com outras pessoas e partilhar informações
-                em tempo real através da internet.
-            </p>
+      <p>
+        Plataformas diferem no formato predominante: texto, imagem, vídeo curto e live.
+        Abaixo tens um resumo com listas (inclui lista aninhada).
+      </p>
 
-        </section>
+      <ol class="lista-redes">
+        <li>Conteúdo curto (vídeo e imagem)
+          <ul>
+            <li>Reels/Shorts</li>
+            <li>Stories</li>
+          </ul>
+        </li>
+        <li>Conteúdo longo (vídeo, artigos)</li>
+        <li>Comunidades
+          <ul>
+            <li>Grupos</li>
+            <li>Canais</li>
+            <li>Eventos</li>
+          </ul>
+        </li>
+      </ol>
 
-        <section>
+      <h3>Exemplos</h3>
 
-            <h2>Principais Redes Sociais</h2>
+      <div class="cards">
+        <article class="card">
+          <h4><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></h4>
+          <img src="images/instagram.jpg" alt="Instagram">
+        </article>
 
-            <article>
+        <article class="card">
+          <h4><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></h4>
+          <img src="images/tiktok.webp" alt="TikTok">
+        </article>
 
-                <h3>Facebook</h3>
+        <article class="card">
+          <h4><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></h4>
+          <img src="images/facebook.webp" alt="Facebook">
+        </article>
+      </div>
+    </section>
 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Logo Facebook">
+    <section class="estatisticas" id="tabela-redes">
+      <h2>Estatísticas Comparativas (2025)</h2>
 
-                <p>
-                    Uma das maiores redes sociais do mundo, utilizada para partilhar
-                    publicações, fotografias, vídeos e comunicar com amigos e familiares.
-                </p>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Plataforma</th>
+            <th colspan="2">Utilização</th>
+            <th rowspan="2">Conteúdo forte</th>
+            <th rowspan="2">Modelo</th>
+          </tr>
+          <tr>
+            <th>Utilizadores mensais</th>
+            <th>Tempo médio/dia</th>
+          </tr>
+        </thead>
 
-            </article>
+        <tbody>
+          <tr>
+            <td><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></td>
+            <td>≈ 3 mil milhões</td>
+            <td>≈ 33 min</td>
+            <td>Fotos, Reels, Stories e Lives</td>
+            <td>Publicidade e Parcerias</td>
+          </tr>
 
-            <article>
+          <tr>
+            <td><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></td>
+            <td>≈ 2 mil milhões</td>
+            <td>≈ 47 min</td>
+            <td>Vídeos curtos e Lives</td>
+            <td>Publicidade, compras e presentes</td>
+          </tr>
 
-                <h3>Instagram</h3>
+          <tr>
+            <td><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></td>
+            <td>≈ 3,1 mil milhões</td>
+            <td>≈ 30 min</td>
+            <td>Publicações, Grupos e Marketplace</td>
+            <td>Publicidade</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Logo Instagram">
+    <section class="sobre">
+      <h2>Boas práticas</h2>
 
-                <p>
-                    Plataforma focada na partilha de fotografias, vídeos e histórias,
-                    muito popular entre jovens e criadores de conteúdo.
-                </p>
+      <figure class="figure-wide">
+        <img src="images/pagina-inicial3.webp" alt="Imagem ilustrativa de redes sociais">
+        <figcaption>As redes sociais evoluem com formatos e tendências.</figcaption>
+      </figure>
 
-            </article>
+      <ul class="boas-praticas">
+        <li><mark>Consistência</mark> no estilo e frequência</li>
+        <li>Uso de <strong>hashtags</strong> e descrições claras</li>
+        <li>Interação: responder a comentários e mensagens</li>
+      </ul>
+    </section>
 
-            <article>
+  </main>
 
-                <h3>TikTok</h3>
-
-                <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="Logo TikTok">
-
-                <p>
-                    Rede social baseada em vídeos curtos, conhecida pela sua capacidade
-                    de criar tendências e conteúdos virais.
-                </p>
-
-            </article>
-
-            <article>
-
-                <h3>X (Twitter)</h3>
-
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" alt="Logo X">
-
-                <p>
-                    Plataforma utilizada para partilhar opiniões, notícias e atualizações
-                    rápidas através de mensagens curtas.
-                </p>
-
-            </article>
-
-        </section>
-
-        <section>
-
-            <h2>Impacto das Redes Sociais</h2>
-
-            <ul>
-                <li>Facilitam a comunicação entre pessoas em todo o mundo.</li>
-                <li>Permitem a divulgação rápida de informação.</li>
-                <li>São importantes para o marketing digital.</li>
-                <li>Influenciam comportamentos, opiniões e tendências.</li>
-            </ul>
-
-        </section>
-
-    </main>
-
-    <footer>
-
-        <hr>
-
-        <p>
-            Trabalho de Multimédia - Streaming e Redes Sociais
-        </p>
-
-    </footer>
+  <footer>
+    © 2026 - Streaming e Redes Sociais
+  </footer>
 
 </body>
 </html>
