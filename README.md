@@ -100,7 +100,7 @@ O website inclui:
 # Implantação do site: 
 O projeto está disponível online através do Netlify:
 
-https://inf25tig06.netlify.app/
+https://quiet-kheer-a885cd.netlify.app/
 
 ---
 
