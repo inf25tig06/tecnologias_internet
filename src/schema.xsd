@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Restrição: O ID tem de ser no formato P01, P02, etc. -->
+  <xs:simpleType name="idPlataforma">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="P[0-9]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Restrição: O tipo de plataforma só pode ser um destes dois valores -->
+  <xs:simpleType name="tipoPlataforma">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="streaming"/>
+      <xs:enumeration value="redes-sociais"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Restrição: O ano de criação deve ser realista para a informática -->
+  <xs:simpleType name="anoValido">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1990"/>
+      <xs:maxInclusive value="2030"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definição da Estrutura Principal -->
+  <xs:element name="multimedia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="plataforma" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="empresa_mae" type="xs:string"/>
+              <xs:element name="ano_criacao" type="anoValido"/>
+              <xs:element name="sede" type="xs:string"/>
+              
+              <!-- Lista de Formatos (Múltiplos elementos <formato>) -->
+              <xs:element name="principais_formatos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="formato" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+              <!-- Bloco de Estatísticas -->
+              <xs:element name="estatisticas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="utilizadores_ativos_mensais" type="xs:long"/>
+                    <xs:element name="tempo_medio_diario_minutos" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+              <!-- Bloco do Modelo de Negócio -->
+              <xs:element name="modelo_negocio">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fonte_receita" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+            </xs:sequence>
+            
+            <!-- Atributos obrigatórios do elemento <plataforma> -->
+            <xs:attribute name="id" type="idPlataforma" use="required"/>
+            <xs:attribute name="tipo" type="tipoPlataforma" use="required"/>
+            
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

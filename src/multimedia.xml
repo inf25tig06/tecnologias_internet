@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multimedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="multimedia.xsd">
+            
+    <!-- Plataforma 1: Netflix -->
+    <plataforma id="P01" tipo="streaming">
+        <nome>Netflix</nome>
+        <empresa_mae>Netflix, Inc.</empresa_mae>
+        <ano_criacao>1997</ano_criacao>
+        <sede>Los Gatos, Califórnia, EUA</sede>
+        <principais_formatos>
+            <formato>Filmes</formato>
+            <formato>Séries</formato>
+            <formato>Documentários</formato>
+        </principais_formatos>
+        <estatisticas>
+            <utilizadores_ativos_mensais>340000000</utilizadores_ativos_mensais>
+            <tempo_medio_diario_minutos>190</tempo_medio_diario_minutos>
+        </estatisticas>
+        <modelo_negocio>
+            <fonte_receita>Subscrição Mensal</fonte_receita>
+            <fonte_receita>Publicidade (Plano com anúncios)</fonte_receita>
+        </modelo_negocio>
+    </plataforma>
+
+    <!-- Plataforma 2: Twitch -->
+    <plataforma id="P02" tipo="streaming">
+        <nome>Twitch</nome>
+        <empresa_mae>Amazon.com, Inc.</empresa_mae>
+        <ano_criacao>2011</ano_criacao>
+        <sede>São Francisco, Califórnia, EUA</sede>
+        <principais_formatos>
+            <formato>Transmissões ao vivo de Gaming</formato>
+            <formato>IRL (In Real Life)</formato>
+            <formato>eSports</formato>
+        </principais_formatos>
+        <estatisticas>
+            <utilizadores_ativos_mensais>240000000</utilizadores_ativos_mensais>
+            <tempo_medio_diario_minutos>95</tempo_medio_diario_minutos>
+        </estatisticas>
+        <modelo_negocio>
+            <fonte_receita>Publicidade</fonte_receita>
+            <fonte_receita>Subscrições de canais (Subs)</fonte_receita>
+            <fonte_receita>Venda de Bits e Emotes</fonte_receita>
+        </modelo_negocio>
+    </plataforma>
+
+    <!-- Plataforma 3: Instagram -->
+    <plataforma id="P03" tipo="redes-sociais">
+        <nome>Instagram</nome>
+        <empresa_mae>Meta Platforms, Inc.</empresa_mae>
+        <ano_criacao>2010</ano_criacao>
+        <sede>Menlo Park, Califórnia, EUA</sede>
+        <principais_formatos>
+            <formato>Fotografias (Feed)</formato>
+            <formato>Reels (Vídeos Curtos)</formato>
+            <formato>Stories temporários</formato>
+        </principais_formatos>
+        <estatisticas>
+            <utilizadores_ativos_mensais>3000000000</utilizadores_ativos_mensais>
+            <tempo_medio_diario_minutos>33</tempo_medio_diario_minutos>
+        </estatisticas>
+        <modelo_negocio>
+            <fonte_receita>Anúncios integrados no feed/stories</fonte_receita>
+            <fonte_receita>Funcionalidades de Shopping</fonte_receita>
+        </modelo_negocio>
+    </plataforma>
+
+    <!-- Plataforma 4: TikTok -->
+    <plataforma id="P04" tipo="redes-sociais">
+        <nome>TikTok</nome>
+        <empresa_mae>ByteDance</empresa_mae>
+        <ano_criacao>2016</ano_criacao>
+        <sede>Pequim, China</sede>
+        <principais_formatos>
+            <formato>Vídeos Curtos Verticais</formato>
+            <formato>Transmissões ao vivo (TikTok Live)</formato>
+        </principais_formatos>
+        <estatisticas>
+            <utilizadores_ativos_mensais>2000000000</utilizadores_ativos_mensais>
+            <tempo_medio_diario_minutos>47</tempo_medio_diario_minutos>
+        </estatisticas>
+        <modelo_negocio>
+            <fonte_receita>Campanhas Publicitárias (Ads)</fonte_receita>
+            <fonte_receita>Comissões de Loja (TikTok Shop)</fonte_receita>
+            <fonte_receita>Presentes virtuais em Lives</fonte_receita>
+        </modelo_negocio>
+    </plataforma>
+    
+</multimedia>
