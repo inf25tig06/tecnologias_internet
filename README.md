@@ -19,7 +19,6 @@ O site foi criado utilizando:
 
 * HTML5
 * CSS3
-* JavaScript
 * XML + XSD
 
 O principal objetivo é apresentar conteudo relacionado com multimedia atraves de um website estatico, interativo e responsivo.
@@ -67,7 +66,6 @@ As seguintes categorias foram utilizadas durante o desenvolvimento deste trabalh
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [XML](https://developer.mozilla.org/en-US/docs/Web/XML)
 * [XSD](https://www.w3schools.com/xml/schema_intro.asp)
 
