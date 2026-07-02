@@ -1,0 +1,115 @@
+
+body{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.logo a{
+  color:white;
+  text-decoration:none;
+}
+
+.signup-wrapper{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 20px;
+}
+
+.signup-box{
+  background:rgba(0,0,0,0.35);
+  border:2px solid rgba(255,255,255,0.15);
+  backdrop-filter:blur(12px);
+  border-radius:20px;
+  padding:50px 45px;
+  width:100%;
+  max-width:480px;
+  text-align:center;
+}
+
+.signup-box h1{
+  font-size:36px;
+  margin-bottom:8px;
+}
+
+.signup-box .subtitulo{
+  font-size:16px;
+  color:rgba(255,255,255,0.7);
+  margin-bottom:35px;
+}
+
+/* Formulário */
+.form-group{
+  margin-bottom:22px;
+  text-align:left;
+}
+
+.form-group label{
+  display:block;
+  margin-bottom:8px;
+  font-size:15px;
+  font-weight:600;
+}
+
+.form-group input{
+  width:100%;
+  padding:14px 18px;
+  border:2px solid rgba(255,255,255,0.2);
+  border-radius:12px;
+  background:rgba(255,255,255,0.1);
+  color:white;
+  font-size:16px;
+  outline:none;
+  transition:.3s;
+}
+
+.form-group input::placeholder{
+  color:rgba(255,255,255,0.45);
+}
+
+.form-group input:focus{
+  border-color:white;
+  background:rgba(255,255,255,0.18);
+}
+
+.btn-criar{
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:40px;
+  background:black;
+  color:white;
+  font-size:19px;
+  font-weight:600;
+  cursor:pointer;
+  transition:.3s;
+  margin-top:10px;
+}
+
+.btn-criar:hover{
+  background:#333;
+}
+
+.login-link{
+  margin-top:25px;
+  font-size:14px;
+  color:rgba(255,255,255,0.65);
+}
+
+.login-link a{
+  color:white;
+  font-weight:600;
+  text-decoration:underline;
+}
+
+.msg-sucesso{
+  background:rgba(0,0,0,0.5);
+  border:2px solid #4caf50;
+  border-radius:12px;
+  padding:18px;
+  margin-top:22px;
+  color:#a5d6a7;
+  font-size:15px;
+}

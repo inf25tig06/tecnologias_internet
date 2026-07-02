@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+.top-nav{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+
+#streaming-intro{
+  margin-top: 10px;
+}
+
+
+.hero--streaming h1::after{
+  content:"";
+  display:block;
+  width:120px;
+  height:4px;
+  background:#000;
+  margin:12px auto 0;
+  border-radius:999px;
+}
+
+
+.media-float{
+  float:right;
+  width:300px;
+  margin:0 0 16px 22px;
+  border:2px solid #000;
+  padding:10px;
+  background:rgba(255,255,255,0.06);
+}
+
+.media-float img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  display:block;
+}
+
+.media-float figcaption{
+  color:#000;
+  font-size:14px;
+  margin-top:8px;
+  line-height:1.4;
+}
+
+
+.sobre::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+.lista{
+  margin:16px 0 0 22px;
+  color:#000;
+  font-size:22px;
+}
+
+.lista ul{
+  margin-top:10px;
+}
+
+
+.def-list{
+  margin-top:18px;
+  color:#000;
+  font-size:20px;
+}
+
+.def-list dt{
+  font-weight:700;
+  margin-top:10px;
+}
+
+.def-list dd{
+  margin-left:18px;
+  opacity:.95;
+}
+
+
+mark{
+  background:#ffe45c;
+  color:#000;
+  padding:0 .25em;
+  border-radius:6px;
+}
+
+em{
+  font-style:normal;
+  text-decoration:underline;
+  text-decoration-thickness:3px;
+}
+
+strong{
+  letter-spacing:.2px;
+}
+
+
+.media-grid{
+  display:flex;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.media-card{
+  flex:1;
+  min-width: 280px;
+  border:2px solid #000;
+  padding:14px;
+  background:rgba(255,255,255,0.06);
+}
+
+.media-card video{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  display:block;
+  background:#000;
+}
+
+.media-card audio{
+  width:100%;
+  display:block;
+  margin-top: 8px;
+}
+
+.media-card figcaption{
+  color:#000;
+  margin-top:10px;
+  font-size:16px;
+}
+
+
+.streaming-aside[data-tipo="dica"]{
+  margin: 0 60px 60px;
+  padding: 22px;
+  border:2px solid #000;
+  background: rgba(0,0,0,0.18);
+}
+
+.streaming-aside h2,
+.streaming-aside p{
+  color:#fff;
+}
+
+.streaming-aside .mini{
+  font-size:14px;
+  opacity:.9;
+}
+
+
+@media (max-width: 900px){
+  .media-float{
+    float:none;
+    width:100%;
+    margin: 0 0 16px 0;
+  }
+
+  .streaming-aside[data-tipo="dica"]{
+    margin: 0 24px 40px;
+  }
+}
