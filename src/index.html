@@ -1,113 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estrutura do Trabalho - Multimédia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streaming e Redes Sociais</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-        h1, h2, h3 {
-            color: #111;
-        }
-
-        section {
-            background: white;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-    </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Estrutura do Trabalho - Multimédia</h1>
-        <h2>Tema: Streaming e redes sociais</h2>
-    </header>
+  <header>
+    <div class="logo">
+      STREAMING E REDES<br>
+      SOCIAIS
+    </div>
 
-    <section>
-        <h2>Descrição do projeto</h2>
-        <p>
-            O nosso trabalho consiste no desenvolvimento de um website estático relacionado com o tema
-            “Multimédia”, mais especificamente sobre streaming e redes sociais.
-            O site será desenvolvido utilizando HTML5 seguindo os requisitos definidos no enunciado.
-        </p>
+    <nav class="top-nav" aria-label="Navegação principal">
+      <a class="btn" href="index.html" aria-current="page">Início</a>
+      <a class="btn" href="streaming.html">Streaming</a>
+      <a class="btn" href="redes-sociais.html">Redes Sociais</a>
+      <a class="btn" href="signup.html">Sign Up →</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <form class="search" role="search" action="#" method="get">
+      <label for="q" class="visually-hidden">Pesquisar</label>
+      <input id="q" name="q" type="search" placeholder="🔍 Pesquisar...">
+    </form>
+
+    <section class="galeria" aria-label="Galeria">
+      <figure>
+        <img src="images/pagina-inicial1.avif" alt="Streaming">
+        <figcaption class="visually-hidden">Streaming</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/pagina-inicial2.jpg" alt="Telemóvel">
+        <figcaption class="visually-hidden">Telemóvel</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/pagina-inicial3.webp" alt="Redes sociais">
+        <figcaption class="visually-hidden">Redes sociais</figcaption>
+      </figure>
     </section>
 
-    <section>
-        <h2>Estrutura do Website</h2>
+    <section class="hero">
+      <h1>BEM-VINDO AO<br>MUNDO DO STREAMING</h1>
 
-        <h3>Página Inicial</h3>
-        <ul>
-            <li>Introdução ao tema</li>
-            <li>Imagens e destaques principais</li>
-        </ul>
+      <p>
+        Descobre uma nova forma de ver, criar e partilhar conteúdo.<br>
+        Explora transmissões ao vivo, conteúdos exclusivos e uma experiência feita para quem vive o streaming sem limites!
+      </p>
 
-        <h3>Plataformas de Streaming</h3>
-        <ul>
-            <li>Informação sobre plataformas como Netflix, YouTube, Twitch e Spotify</li>
-            <li>Tabela comparativa de plataformas</li>
-        </ul>
-
-        <h3>Impacto das Redes Sociais</h3>
-        <ul>
-            <li>Influência das redes sociais na sociedade</li>
-            <li>Marketing digital</li>
-        </ul>
+      <div class="hero-actions">
+        <a href="streaming.html" class="btn">Explorar Streaming</a>
+        <a href="redes-sociais.html" class="btn">Explorar Redes</a>
+        <a href="#estatisticas" class="btn">Estatísticas</a>
+      </div>
     </section>
 
-    <section>
-        <h2>Estilo Visual</h2>
-        <ul>
-            <li>Cores escuras com destaques em vermelho e branco</li>
-            <li>Menus simples e organizados</li>
-            <li>Layout responsivo para computador e telemóvel</li>
-        </ul>
+    <section class="sobre">
+      <h2>O que é o Streaming?</h2>
+
+      <p>
+        O streaming é uma tecnologia que permite reproduzir conteúdos multimédia através da Internet
+        sem necessidade de efetuar o download completo dos ficheiros.
+        Esta tecnologia é utilizada para vídeos, música, transmissões em direto e podcasts.
+      </p>
+
+      <h3>Exemplos:</h3>
+
+      <div class="cards">
+        <article class="card">
+          <h4><a href="https://www.netflix.com/" target="_blank" rel="noopener">Netflix</a></h4>
+          <img src="images/netflix.png" alt="Netflix">
+        </article>
+
+        <article class="card">
+          <h4><a href="https://www.twitch.tv/" target="_blank" rel="noopener">Twitch</a></h4>
+          <img src="images/twitch.webp" alt="Twitch">
+        </article>
+
+        <article class="card">
+          <h4><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></h4>
+          <img src="images/youtube.jpg" alt="YouTube">
+        </article>
+      </div>
     </section>
 
-    <section>
-        <h2>Tecnologias Utilizadas</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>XML + XSD</li>
-        </ul>
+    <section class="estatisticas" id="estatisticas">
+      <h2>Estatísticas Comparativas (2025)</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Plataforma</th>
+            <th colspan="2">Audiência</th>
+            <th rowspan="2">Conteúdo Principal</th>
+            <th rowspan="2">Transmissões em Direto</th>
+            <th rowspan="2">Modelo de Receita</th>
+          </tr>
+          <tr>
+            <th>Utilizadores / Subscritores (2025)</th>
+            <th>Horas de Visualização</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><a href="https://www.netflix.com/" target="_blank" rel="noopener">Netflix</a></td>
+            <td>340+ milhões de subscritores pagos</td>
+            <td>95 mil milhões de horas visualizadas (1.º semestre de 2025)</td>
+            <td>Filmes, Séries e Documentários</td>
+            <td>Limitadas (eventos ao vivo)</td>
+            <td>Subscrições + Plano com anúncios</td>
+          </tr>
+
+          <tr>
+            <td><a href="https://www.twitch.tv/" target="_blank" rel="noopener">Twitch</a></td>
+            <td>240 milhões de utilizadores mensais</td>
+            <td>≈730 milhões de horas assistidas por mês</td>
+            <td>Gaming, IRL e eSports</td>
+            <td>Sim</td>
+            <td>Anúncios + Subscrições + Bits</td>
+          </tr>
+
+          <tr>
+            <td><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></td>
+            <td>2,7 mil milhões de utilizadores mensais</td>
+            <td>Mais de 1 bilião de horas assistidas por dia</td>
+            <td>Vídeos, Música, Shorts e Lives</td>
+            <td>Sim</td>
+            <td>Anúncios + YouTube Premium</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="6">Nota: valores aproximados para fins académicos/comparativos.</td>
+          </tr>
+        </tfoot>
+      </table>
     </section>
 
-    <section>
-        <h2>Funcionalidades Previstas</h2>
-        <ul>
-            <li>Navegação entre páginas</li>
-            <li>Integração de imagens, áudio e vídeo</li>
-        </ul>
-    </section>
+  </main>
 
-    <section>
-        <h2>Apontamento Final</h2>
-        <p>
-            Pretendemos desenvolver um website simples, organizado e visualmente agradável,
-            focado numa estrutura clara e de fácil navegação para o utilizador.
-            O principal objetivo é garantir o cumprimento correto e rigoroso de todos os requisitos definidos no enunciado,
-            assegurando a aplicação adequada das tecnologias HTML5
-        </p>
-    </section>
+  <section class="hero" aria-label="Download de dados">
+  <h2>Dados do Projeto (XML)</h2>
+  <p>Podes descarregar o ficheiro XML com informação sobre as plataformas de streaming e redes sociais.</p>
+  <a class="btn" href="data/multimedia.xml" download>Descarregar XML</a>
+</section>
 
-    <footer>
-        <h2>Realizado por</h2>
-        <ul>
-            <li>Gonçalo Abreu - Nº a049973</li>
-            <li>Luis Fonseca - Nº a049058</li>
-            <li>Tomás Fonseca - Nº a049055</li>
-        </ul>
-    </footer>
+  <footer>
+    © 2026 - Streaming e Redes Sociais
+  </footer>
 
 </body>
 </html>
