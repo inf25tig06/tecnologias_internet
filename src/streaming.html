@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streaming - Streaming e Redes Sociais</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/streaming.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      STREAMING E REDES<br>
+      SOCIAIS
+    </div>
+
+    <nav class="top-nav" aria-label="Navegação principal">
+      <a class="btn" href="index.html">Início</a>
+      <a class="btn" href="streaming.html" aria-current="page">Streaming</a>
+      <a class="btn" href="redes-sociais.html">Redes Sociais</a>
+      <a class="btn" href="signup.html">Sign Up →</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero hero--streaming" id="streaming-intro">
+      <h1>STREAMING</h1>
+      <p>
+        Streaming é a entrega contínua de <strong>conteúdo multimédia</strong> pela internet, permitindo começar a ver/ouvir
+        imediatamente. Pode ser <em>VOD</em> (on-demand) ou <em>Live</em> (em direto).
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn" href="#plataformas">Plataformas</a>
+      </div>
+    </section>
+
+    <section class="sobre" id="tipos">
+      <h2>Tipos de streaming</h2>
+
+      <figure class="media-float">
+        <img src="images/pagina-inicial1.avif" alt="Exemplo de consumo de vídeo em streaming">
+        <figcaption>Visualização de vídeo sem download completo.</figcaption>
+      </figure>
+
+      <p>
+        Existem diferentes formas de consumir streaming, dependendo do objetivo e do tipo de conteúdo:
+      </p>
+
+      <ul class="lista">
+        <li><strong>VOD</strong> (Video on Demand): filmes e séries para ver a qualquer momento.</li>
+        <li><strong>Live</strong>: transmissões em direto (gaming, eventos, podcasts ao vivo).</li>
+        <li><strong>Áudio</strong>: música e podcasts (com reprodução imediata).</li>
+        <li>Conteúdo curto:
+          <ul>
+            <li>clips e highlights</li>
+            <li>shorts/reels (muito comuns em plataformas sociais)</li>
+          </ul>
+        </li>
+      </ul>
+
+      <dl class="def-list">
+        <dt>VOD</dt>
+        <dd>Conteúdo gravado que o utilizador escolhe quando quer ver.</dd>
+        <dt>Live</dt>
+        <dd>Conteúdo em tempo real; normalmente envolve chat e interação com o criador.</dd>
+      </dl>
+    </section>
+
+    <section class="sobre" id="tecnologia">
+      <h2>Como funciona (de forma simples)</h2>
+
+      <p>
+        O conteúdo é enviado em pequenas partes. O leitor (player) vai <mark>carregando</mark> e reproduzindo ao mesmo tempo.
+        A qualidade pode ajustar-se automaticamente conforme a ligação (adaptive streaming).
+      </p>
+
+      <h3>Conceitos importantes</h3>
+
+      <ul class="lista">
+        <li><strong>Bitrate</strong>: influencia qualidade e consumo de dados.</li>
+        <li><strong>Buffer</strong>: pequena “reserva” para evitar paragens.</li>
+        <li><strong>Latência</strong>: atraso entre o evento e o que o utilizador vê (muito relevante em live).</li>
+      </ul>
+
+      <section class="estatisticas" aria-label="Tabela de tecnologia">
+        <h2>Tecnologias comuns (exemplo)</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2">Categoria</th>
+              <th rowspan="2">Tecnologia</th>
+              <th colspan="2">Usada em</th>
+              <th rowspan="2">Notas</th>
+            </tr>
+            <tr>
+              <th>VOD</th>
+              <th>Live</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td rowspan="2">Entrega</td>
+              <td>HLS / DASH</td>
+              <td>Sim</td>
+              <td>Sim</td>
+              <td>Segmentos + adaptação de qualidade</td>
+            </tr>
+            <tr>
+              <td>RTMP (ingest)</td>
+              <td>—</td>
+              <td>Sim</td>
+              <td>Muito usado para enviar live do streamer para a plataforma</td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">Compressão</td>
+              <td>H.264 / H.265</td>
+              <td>Sim</td>
+              <td>Sim</td>
+              <td>Compatibilidade e eficiência</td>
+            </tr>
+            <tr>
+              <td>AV1</td>
+              <td>Sim</td>
+              <td>Alguns casos</td>
+              <td>Alta eficiência; depende do suporte</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+
+    <section class="sobre" id="plataformas">
+      <h2>Plataformas e modelos</h2>
+
+      <p>
+        As plataformas combinam tecnologia e negócio. Algumas focam-se em subscrição, outras em anúncios e comunidades.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h4><a href="https://www.netflix.com/" target="_blank" rel="noopener">Netflix</a></h4>
+          <img src="images/netflix.png" alt="Netflix">
+        </article>
+
+        <article class="card">
+          <h4><a href="https://www.twitch.tv/" target="_blank" rel="noopener">Twitch</a></h4>
+          <img src="images/twitch.webp" alt="Twitch">
+        </article>
+
+        <article class="card">
+          <h4><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></h4>
+          <img src="images/youtube.jpg" alt="YouTube">
+        </article>
+      </div>
+
+      <h3>Modelos de receita (exemplos)</h3>
+      <ul class="lista">
+        <li><strong>Subscrição</strong> (mensal/anual)</li>
+        <li><strong>Publicidade</strong> (anúncios antes/durante o conteúdo)</li>
+        <li><strong>Doações e subscrições a canais</strong> (muito comum em live)</li>
+        <li><strong>Parcerias</strong> e patrocínios</li>
+      </ul>
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    © 2026 - Streaming e Redes Sociais
+  </footer>
+
+</body>
+</html>
